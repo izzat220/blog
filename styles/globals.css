@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Merriweather", serif;
+}
+
+@layer base {
+	ul,
+	ol {
+		list-style: revert;
+	}
+}
+
+p {
+	font-family: "Merriweather", serif;
+	line-height: 30px;
+	font-weight: 200;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
