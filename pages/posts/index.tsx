@@ -3,6 +3,7 @@ import { Layout } from "../../components/Layout";
 import Image from "next/image";
 import allPosts from "../../posts/index.json";
 import { MetaData } from "../../interfaces/Post";
+import Link from "next/link";
 
 interface Props {
 	posts: MetaData[];
@@ -28,6 +29,8 @@ const Home: NextPage<Props> = ({ posts }) => {
 									<span className="text-xs text-gray-500">
 										Posted on {item.postedOn}
 									</span>
+
+									<Link href={`/posts/${item.id}`}>Go To Page</Link>
 								</div>
 
 								<Image
