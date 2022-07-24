@@ -1,8 +1,9 @@
 import type { NextPage } from "next";
 import { Layout } from "../components/Layout";
 import moment from "moment";
+import Image from "next/image";
 
-const Home: NextPage = ({ posts }: any) => {
+const Home: NextPage = ({}: any) => {
 	const arr = [1, 2, 3, 4, 5];
 	return (
 		<Layout>
@@ -20,10 +21,12 @@ const Home: NextPage = ({ posts }: any) => {
 						</div>
 					</div>
 
-					<img
-						src="https://cdn.wallpapersafari.com/58/12/EfQJDT.jpg"
-						alt=""
+					<Image
+						src="/great-wave.jpeg"
+						alt="great wave off kanagawa"
 						className="rounded-lg"
+						width={400}
+						height={400}
 					/>
 				</div>
 
@@ -52,7 +55,7 @@ const Home: NextPage = ({ posts }: any) => {
 						</a>
 					</div>
 
-					<div className="flex flex-col w-full space-y-10">
+					{/* <div className="flex flex-col w-full space-y-10">
 						{posts.map((item: any) => (
 							<div key={item} className="flex w-full space-x-5">
 								<div className="flex flex-col w-full">
@@ -68,7 +71,7 @@ const Home: NextPage = ({ posts }: any) => {
 								<img src={item.image} alt="hey" className="rounded-lg" width={220} />
 							</div>
 						))}
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</Layout>
@@ -78,10 +81,7 @@ const Home: NextPage = ({ posts }: any) => {
 export default Home;
 
 export async function getStaticProps() {
-	const res = await fetch("http://localhost:3000/api/posts/getRecentPosts");
-	const data = await res.json();
-
 	return {
-		props: { posts: data },
+		props: {},
 	};
 }

@@ -21,7 +21,7 @@ export const Nav: React.FC<NavProps> = ({}) => {
 			<input
 				type="text"
 				placeholder="Search posts..."
-				className="border-[1px] px-2 py-1 rounded w-[250px] outline-2 outline-black"
+				className="border-[1px] px-2 py-1 rounded w-[250px] outline-none "
 			/>
 		</div>
 	);

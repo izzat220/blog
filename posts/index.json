@@ -1,0 +1,12 @@
+[
+	{
+		"id": 1,
+		"title": "Post title goes here",
+		"subTitle": "Post sub title goes here",
+		"postedOn": "21/07/2022 12:35",
+		"tags": ["Programming", "Tutorials"],
+		"views": 0,
+		"likes": 0,
+		"image": "test.png"
+	}
+]
