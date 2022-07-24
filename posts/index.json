@@ -8,5 +8,15 @@
 		"views": 0,
 		"likes": 0,
 		"image": "test.png"
+	},
+	{
+		"id": 2,
+		"title": "Second post title goes here",
+		"subTitle": "Second post sub title goes here",
+		"postedOn": "22/07/2022 12:35",
+		"tags": ["Lifestyle"],
+		"views": 0,
+		"likes": 0,
+		"image": "test2.png"
 	}
 ]
