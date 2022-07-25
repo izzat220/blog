@@ -1,22 +1,18 @@
 [
 	{
 		"id": 1,
-		"title": "Post title goes here",
-		"subTitle": "Post sub title goes here",
+		"title": "Create Notification Toasts for React.js",
+		"subTitle": "Learn to create global toast notifications for React.js with Tailwind CSS, Framer Motion, and React Context API",
 		"postedOn": "21/07/2022 12:35",
 		"tags": ["Programming", "Tutorials"],
-		"views": 0,
-		"likes": 0,
-		"image": "test.png"
+		"image": "toast.webp"
 	},
 	{
 		"id": 2,
-		"title": "Second post title goes here",
-		"subTitle": "Second post sub title goes here",
-		"postedOn": "22/07/2022 12:35",
-		"tags": ["Lifestyle"],
-		"views": 0,
-		"likes": 0,
-		"image": "test2.png"
+		"title": "Setup a Cron Job on a Node.js Server",
+		"subTitle": "Learn to create global toast notifications for React.js with Tailwind CSS, Framer Motion, and React Context API",
+		"postedOn": "21/07/2022 12:35",
+		"tags": ["Programming", "Tutorials"],
+		"image": "clock.jpeg"
 	}
 ]

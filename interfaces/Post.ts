@@ -4,8 +4,6 @@ interface MetaData {
 	subTitle: string;
 	postedOn: string;
 	tags: string[];
-	views: number;
-	likes: number;
 	image: string;
 }
 
